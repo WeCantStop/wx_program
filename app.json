@@ -1,0 +1,60 @@
+{
+  "pages": [
+    "pages/tabBar/index/index",
+    "pages/tabBar/logs/logs",
+    "pages/tabBar/love/love",
+    "pages/tabBar/userCenter/userCenter"
+  ],
+  "subPackages": [
+    {
+      "root": "pages/indexModule",
+      "pages": [
+        "pages/introduction/introduction"
+      ]
+    },
+    {
+      "root": "pages/user",
+      "pages": [
+        "personDetail/personDetail"
+      ]
+    }
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "小当爱之家",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#EEE"
+  },
+  "tabBar": {
+    "borderStyle": "white",
+    "backgroundColor": "#FEFEFE",
+    "selectedColor": "hotpink",
+    "list": [
+      {
+        "pagePath": "pages/tabBar/index/index",
+        "text": "首页",
+        "iconPath": "./assets/imgs/mainTab/icon-home.png",
+        "selectedIconPath": "./assets/imgs/mainTab/icon-home-active.png"
+      },
+      {
+        "pagePath": "pages/tabBar/logs/logs",
+        "text": "开心",
+        "iconPath": "./assets/imgs/mainTab/icon-happy.png",
+        "selectedIconPath": "./assets/imgs/mainTab/icon-happy-active.png"
+      },
+      {
+        "pagePath": "pages/tabBar/love/love",
+        "text": "爱心",
+        "iconPath": "./assets/imgs/mainTab/icon-love.png",
+        "selectedIconPath": "./assets/imgs/mainTab/icon-love-active.png"
+      },
+      {
+        "pagePath": "pages/tabBar/userCenter/userCenter",
+        "text": "家庭成员",
+        "iconPath": "./assets/imgs/mainTab/icon-person.png",
+        "selectedIconPath": "./assets/imgs/mainTab/icon-person-active.png"
+      }
+    ]
+  }
+}

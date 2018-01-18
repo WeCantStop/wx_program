@@ -1,0 +1,10 @@
+<!--components/list-item.wxml-->
+<view class="list-item" hover-class="list-tap" hover-stay-time="200" bindtap='clickItem'>
+  <block>{{text}}</block>
+  <view class='img-wrapper'>
+    <image src="{{imgIcon}}"></image>
+  </view>
+  <view class='img-wrapper angle-right'>
+    <image src="/assets/imgs/common/angle-right.png"></image>
+  </view>
+</view>

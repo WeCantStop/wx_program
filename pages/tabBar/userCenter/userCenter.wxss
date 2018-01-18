@@ -1,0 +1,15 @@
+/* pages/userCenter/userCenter.wxss */
+.userInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.userinfo-avatar {
+    width: 128rpx;
+    height: 128rpx;
+    margin: 20rpx;
+    border-radius: 50%;
+}
+.userinfo-nickname {
+    margin-top: 4px;
+}

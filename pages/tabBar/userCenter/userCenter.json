@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "家庭成员",
+  "usingComponents": {
+    "listItem": "/components/list-item/list-item"
+  }
+}

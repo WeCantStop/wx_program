@@ -1,0 +1,14 @@
+<!-- pages/userCenter/userCenter.wxml -->
+<view>
+  <view class="userInfo">
+    <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+    <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+  </view>
+
+  <view>
+    <block wx:for="{{users}}" wx:key="item.id">
+       <listItem text="{{item.name}}" dataSource="{{item}}" imgIcon="{{item.imgIcon}}"
+        bind:clickItem="goPersonalPage"></listItem>
+    </block>
+  </view>
+</view>

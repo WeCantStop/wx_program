@@ -1,0 +1,12 @@
+<!--pages/user/personDetail/personDetail.wxml-->
+<view>
+  <view>
+    <text>{{user.name}}</text>
+  </view>
+  <view>
+    <text>{{user.gender}}</text>
+  </view>
+  <view>
+    <text>{{user.age}}</text>
+  </view>
+</view>

@@ -1,0 +1,47 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="usermotto">
+    <text class="user-motto">WelCome <text class="special-userName">{{userInfo.nickName}}</text> to our home!</text>
+  </view>
+  <view class='swiper-container'>
+    <swiper class="swiper" indicator-dots="{{true}}">
+      <block wx:for="{{swiperImgUrls}}" wx:key="swiperImgUrls.index">
+        <swiper-item>
+          <image src="{{item}}" class="slide-image" width="355" height="150" />
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称         </button>
+    <block wx:else>
+      <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+    </block>
+  </view>
+  <view class='love-desc'>
+    <view class='shici-title'>
+      <text class='h1'>《满世繁华不如你》</text>    
+    </view>
+    <view class='shici'>
+      <text class='shige'>微风轻起，</text>
+    </view>
+    <view class='shici'>
+      <text class='shige'>无尽流年，</text>
+    </view>
+    <view class='shici'>
+      <text class='shige'>一生之守，</text>
+    </view>
+    <view class='shici'>
+      <text class='shige'>都将在这绚烂与凋零的交替之中款款流逝。</text>
+    </view>
+    <view class='shici'>
+      <text class='shige'>满世繁华如岁月，</text>
+    </view>
+    <view class='shici'>
+      <text class='shige'>若凋零，</text>
+    </view>
+    <view class='shici'>
+      <text class='shige'>不负卿。</text>
+    </view>
+  </view>
+</view>
