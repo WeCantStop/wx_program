@@ -1,4 +1,22 @@
 <!--pages/love/love.wxml-->
-<view>
-  <text>Ours</text>
+<view class="jay-img-wrapper">
+  <image src="http://m.qpic.cn/psb?/V13sys0K3RoUvw/S1XJb9s31q2Nj9ta1qtsXvvyCtNe6JRrjioWKgKlOhc!/b/dHYBAAAAAAAA&bo=gAIAAgAAAAARB7A!&rf=viewer_4"
+   mode="widthFix"></image>
+</view>
+
+<view style="text-align: center; margin-top: 20rpx">
+  <!-- audio.wxml -->
+  <audio poster="{{poster}}" name="{{name}}" author="{{author}}" src="{{src}}" id="myAudio" controls loop></audio>
+</view>
+
+<view class="lyric">
+  <text>{{lyric}}</text>
+</view>
+
+<view class="lyric my-word">
+  <text>宝宝等了差不多一年哥哥下班了，</text>
+</view>
+
+<view class="lyric my-word">
+  <text>现在开始该轮到哥哥等宝宝下班啦^_^</text>
 </view>

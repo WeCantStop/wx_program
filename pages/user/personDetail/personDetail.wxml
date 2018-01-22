@@ -1,12 +1,18 @@
 <!--pages/user/personDetail/personDetail.wxml-->
-<view>
-  <view>
-    <text>{{user.name}}</text>
+<view class="main-container">
+  <view class="person-detial">
+    <view>
+      <text>Nickname: {{user.nickName}}</text>
+    </view>
+    <view>
+      <text>Age: {{user.age}}</text>
+    </view>
   </view>
-  <view>
-    <text>{{user.gender}}</text>
+
+  <view class="userImg-wrapper">
+    <image class="userImg" src="{{user.userImg}}" mode="widthFix"></image>  
   </view>
-  <view>
-    <text>{{user.age}}</text>
+  <view class="person-desc">
+    <text class="person-desc-text">{{user.personDesc}}</text>
   </view>
 </view>

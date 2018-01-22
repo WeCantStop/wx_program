@@ -11,13 +11,16 @@
   margin: 20rpx;
   border-radius: 50%;
 }
-
 .userinfo-nickname {
   color: #aaa;
 }
-
-.usermotto {
+.usermotto:last-child {
+  text-align: center;
   margin-bottom: 20rpx;
+}
+.en {
+  margin-bottom: 20rpx;
+  font-size: 16px;
 }
 .special-userName {
   color: hotpink
@@ -28,7 +31,7 @@
 .swiper-container image {
   width: 100%;
 }
-.shici{
+.shici {
   text-align: center;
   font-size: 16px;
   margin-top: 20rpx;
@@ -38,6 +41,9 @@
   margin-bottom: 20rpx;
   font-weight: 700;
 }
+.love-desc {
+  padding-bottom: 30rpx; 
+}
 .swiper {
-  height: 240px;
+  height: 480px;
 }

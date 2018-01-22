@@ -1,1 +1,17 @@
 /* pages/user/personDetail/personDetail.wxss */
+.main-container {
+    padding: 0 20rpx;
+}
+.person-detial {
+    padding-bottom: 20rpx;
+}
+.userImg-wrapper {
+    text-align: center;
+}
+.person-desc {
+    padding: 40rpx 0 20rpx 0;
+}
+.person-desc-text {
+    text-indent: 2px;
+    font-size: 14px;
+}

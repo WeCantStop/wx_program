@@ -8,7 +8,7 @@ Page({
   data: {
     userInfo: {},
     hasUserInfo: false,
-    swiperImgUrls: swiperImgs.siper,
+    swiperImgUrls: swiperImgs.swiperImg,
     canIUse: wx.canIUse('button.open-type.getUserInfo')
   },
   //事件处理函数

@@ -1,5 +1,5 @@
 {
-  "navigationBarTitleText": "家庭成员",
+  "navigationBarTitleText": "个人中心",
   "usingComponents": {
     "listItem": "/components/list-item/list-item"
   }

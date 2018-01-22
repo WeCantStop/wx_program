@@ -1,1 +1,19 @@
 /* pages/love/love.wxss */
+.jay-img-wrapper {
+    text-align: center;
+}
+.lyric {
+    line-height: 2;
+    text-align: center;
+    font-size: 16px;
+    padding-bottom: 20rpx;
+}
+.my-word {
+    color: hotpink;
+    font-size: 16px;
+    padding-bottom: 0;
+    text-align: center;
+}
+.my-word:last-child {
+    padding-bottom: 40rpx;
+}

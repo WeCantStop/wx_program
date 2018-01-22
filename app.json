@@ -1,7 +1,7 @@
 {
   "pages": [
     "pages/tabBar/index/index",
-    "pages/tabBar/logs/logs",
+    "pages/tabBar/happy/happy",
     "pages/tabBar/love/love",
     "pages/tabBar/userCenter/userCenter"
   ],
@@ -29,7 +29,7 @@
   "tabBar": {
     "borderStyle": "white",
     "backgroundColor": "#FEFEFE",
-    "selectedColor": "hotpink",
+    "selectedColor": "#D4237A",
     "list": [
       {
         "pagePath": "pages/tabBar/index/index",
@@ -38,7 +38,7 @@
         "selectedIconPath": "./assets/imgs/mainTab/icon-home-active.png"
       },
       {
-        "pagePath": "pages/tabBar/logs/logs",
+        "pagePath": "pages/tabBar/happy/happy",
         "text": "开心",
         "iconPath": "./assets/imgs/mainTab/icon-happy.png",
         "selectedIconPath": "./assets/imgs/mainTab/icon-happy-active.png"
