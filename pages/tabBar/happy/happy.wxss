@@ -1,0 +1,22 @@
+.log-list {
+  display: flex;
+  flex-direction: column;
+  padding: 20rpx;
+}
+.log-item {
+  margin: 10rpx;
+}
+.scroll-view-wrapper {
+  white-space: nowrap;
+}
+.scroll-view-item {
+  display: inline-block;
+  width:80%;
+  height: 320px;
+}
+.cityName {
+  margin-bottom: 20rpx;
+  padding-bottom: 10rpx;
+  border-bottom: 2px solid deeppink;
+}
+

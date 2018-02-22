@@ -1,0 +1,15 @@
+<!--logs.wxml-->
+<view class="container log-list">
+  <!--<block wx:for="{{logs}}" wx:key="logs.index" wx:for-item="log">
+    <text class="log-item">{{index + 1}}. {{log}}</text>
+  </block>-->
+  <block wx:for="{{placeData}}" wx:key="placeData.index" wx:for-item="place" wx:for-index="placeIndex" >
+    <view class="cityName">{{place.location}}</view>
+
+    <scroll-view scroll-x class="scroll-view-wrapper">
+      <view class="scroll-view-item" wx:for="{{place.imgs}}" wx:key="place.index" wx:for-item="placeImg">
+        <image src="{{placeImg}}" data-src="{{placeImg}}" data-index="{{placeIndex}}" mode="aspectFill" bindtap="previewImage"></image>
+      </view>
+    </scroll-view>
+  </block>
+</view>
