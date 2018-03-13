@@ -1,0 +1,19 @@
+<view class="section">
+  <view class="section__title">vertical scroll</view>
+  
+  <block wx:for="{{placeData}}" wx:key="placeData.index" wx:for-item="place" wx:for-index="placeIndex" >
+    <view class="cityName">{{place.location}}</view>
+  </block>
+  <scroll-view scroll-x style="height: 200px;">
+    <!-- <view wx:for="{{chatPlace}}" wx:for-item="imgUrl" wx:key="chatPlace.index">
+    test
+     <image src="{{imgUrl.img}}"></image>
+    </view> -->
+    
+  </scroll-view>
+
+  <view class="btn-area">
+    <button size="mini" bindtap="tap">click me to scroll into view </button>
+    <button size="mini" bindtap="tapMove">click me to scroll</button>
+  </view>
+</view>

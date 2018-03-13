@@ -3,7 +3,8 @@
     "pages/tabBar/index/index",
     "pages/tabBar/happy/happy",
     "pages/tabBar/love/love",
-    "pages/tabBar/userCenter/userCenter"
+    "pages/tabBar/userCenter/userCenter",
+    "pages/tabBar/chat/chat"
   ],
   "subPackages": [
     {
@@ -54,6 +55,12 @@
         "text": "家庭成员",
         "iconPath": "./assets/imgs/mainTab/icon-person.png",
         "selectedIconPath": "./assets/imgs/mainTab/icon-person-active.png"
+      },
+      {
+        "pagePath": "pages/tabBar/chat/chat",
+        "text": "chatU",
+        "iconPath": "./assets/imgs/mainTab/chat.png",
+        "selectedIconPath": "./assets/imgs/mainTab/chat.png"
       }
     ]
   }
